@@ -1,0 +1,27 @@
+.image-success{
+    border-radius: 50%;
+    width: 40%;
+    padding: 10px;
+}
+
+header{
+    background-color: hsl(249, 10%, 26%) ;
+}
+
+section{
+    padding: 20px;
+}
+
+
+@media (min-width: 800px) {
+
+    header{
+        width: 90%;
+    }
+
+    img{
+        width: 30%;
+        padding: 20px;
+        margin-right: 90px;
+    }
+}

@@ -1,0 +1,46 @@
+
+.main-card{
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+    padding: 10px;
+    width: 340px;
+    margin: 10px;
+}
+h1{
+    width: 100%;
+}
+
+h2{
+    color: hsl(248, 32%, 49%); 
+}
+
+h3{
+    color: hsl(248, 32%, 49%);
+}
+.featuresHeading{
+    
+    text-decoration: underline;
+}
+ul{
+    list-style-position: inside;
+}
+li{
+    color: hsl(249, 10%, 26%) ;
+    text-align: left;
+    padding: 3px 15px;
+    
+}
+
+li::marker{
+    content: '>';
+    padding-left: 15px;
+}
+
+
+@media (min-width: 800px) {
+    .main-card{
+        
+        height: 350px;
+    }
+}

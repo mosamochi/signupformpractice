@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+
+body {
+  background-color: hsl(0, 100%, 74%) ;
+  background-image: url('/signup-form-nextjs/bg-intro-mobile.png');
+  
+ 
+}
+main{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+
+ 
+}
+h1{
+  margin:15px;
+  margin-top: 60px;
+}
+
+p{
+  margin: 15px 12px 25px 12px;
+  
+}
+
+.bold-text{
+font-weight: 700;
+}
+
+
+
+
+
+
+@media (min-width: 800px) {
+  main{
+    flex-direction: row;
+  }
+  
+  #main-text-block{
+    max-width: 40%;
+    height:100%;
+    text-align: left;
+    padding-left: 70px;
+  }
+  
+
+  h1{
+    font-size: 50px;
+    width: 80%;
+  }
+
+  p{
+    font-size: 20px;
+    
+  }
+}

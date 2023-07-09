@@ -27,7 +27,7 @@ let topPlan = {
        <>
         <header><h1>Pick the plan best for you:</h1></header>
         <main >
-        <h2 className="link"> <Link href="/"> Create your account to start your free 7 day trial </Link></h2>
+        <h2 className="link"> <Link href="/index.html"> Create your account to start your free 7 day trial </Link></h2>
         <PlanCard planName={basePlan.planName} price={basePlan.price} features={basePlan.features} ></PlanCard>
         <PlanCard planName={plusPlan.planName} price={plusPlan.price} features={plusPlan.features} ></PlanCard>
         <PlanCard planName={topPlan.planName} price={topPlan.price} features={topPlan.features} ></PlanCard>

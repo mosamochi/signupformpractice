@@ -14,7 +14,7 @@ export default function Success() {
         <p> Thank you for clicking through this far!</p>
         </section>
         
-        <Link href='/'><Image className='image-success' src="/signupformpractice/Kitty.jpg"></Image></Link>
+        <Link href='/index.html'><Image className='image-success' src="/signupformpractice/Kitty.jpg"></Image></Link>
     </main>
     </>
    
